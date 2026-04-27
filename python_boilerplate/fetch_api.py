@@ -9,7 +9,7 @@ def fetch_data(url):
     if response.status_code == 200:
         # 3. Parse the data as JSON (将数据解析为 JSON 格式)
         data = response.json()
-        print("Data fetched successfully!")
+        print("Data fetched successfully.")
         return data
     else:
         print(f"Failed to fetch. Error code: {response.status_code}")
